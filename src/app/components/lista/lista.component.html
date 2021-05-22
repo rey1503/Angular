@@ -1,0 +1,67 @@
+  <h1 style="text-align: center;">Tecnologias</h1>
+  <div *ngFor="let dat of lista" id="lista" >
+    <div class="card border-primary mb-3" style="max-width: 20rem;" *ngIf="dat.id==3">
+        <div class="card-header">{{dat.tipo}}</div>
+        <div class="card-body">
+          <h4 class="card-title">{{dat.nombre}}</h4>
+            <ngb-rating [rate]='dat.estrellas'></ngb-rating>
+          <p class="card-text">{{dat.estrellas}}</p>
+        </div>
+      </div>
+      <div class="card border-secondary mb-3" style="max-width: 20rem;" *ngIf="dat.id==8">
+        <div class="card-header">{{dat.tipo}}</div>
+        <div class="card-body">
+          <h4 class="card-title">{{dat.nombre}}</h4>
+            <ngb-rating [rate]='dat.estrellas'></ngb-rating>
+          <p class="card-text">{{dat.estrellas}}</p>
+        </div>
+      </div>
+      <div class="card border-success mb-3" style="max-width: 20rem;" *ngIf="dat.id==1">
+        <div class="card-header">{{dat.tipo}}</div>
+        <div class="card-body">
+          <h4 class="card-title">{{dat.nombre}}</h4>
+            <ngb-rating [rate]='dat.estrellas'></ngb-rating>
+          <p class="card-text">{{dat.estrellas}}</p>
+        </div>
+      </div>
+      <div class="card border-danger mb-3" style="max-width: 20rem;" *ngIf="dat.id==2">
+        <div class="card-header">{{dat.tipo}}</div>
+        <div class="card-body">
+          <h4 class="card-title">{{dat.nombre}}</h4>
+            <ngb-rating [rate]='dat.estrellas'></ngb-rating>
+          <p class="card-text">{{dat.estrellas}}</p>
+        </div>
+      </div>
+      <div class="card border-warning mb-3" style="max-width: 20rem;"  *ngIf="dat.id==7">
+        <div class="card-header">{{dat.tipo}}</div>
+        <div class="card-body">
+          <h4 class="card-title">{{dat.nombre}}</h4>
+            <ngb-rating [rate]='dat.estrellas'></ngb-rating>
+          <p class="card-text">{{dat.estrellas}}</p>
+        </div>
+      </div>
+      <div class="card border-info mb-3" style="max-width: 20rem;"  *ngIf="dat.id==6">
+        <div class="card-header">{{dat.tipo}}</div>
+        <div class="card-body">
+          <h4 class="card-title">{{dat.nombre}}</h4>
+            <ngb-rating [rate]='dat.estrellas'></ngb-rating>
+          <p class="card-text">{{dat.estrellas}}</p>
+        </div>
+      </div>
+      <div class="card border-light mb-3" style="max-width: 20rem;" *ngIf="dat.id==4">
+        <div class="card-header">{{dat.tipo}}</div>
+        <div class="card-body">
+          <h4 class="card-title">{{dat.nombre}}</h4>
+            <ngb-rating [rate]='dat.estrellas'></ngb-rating>
+          <p class="card-text">{{dat.estrellas}}</p>
+        </div>
+      </div>
+      <div class="card border-dark mb-3" style="max-width: 20rem;" *ngIf="dat.id==5">
+        <div class="card-header">{{dat.tipo}}</div>
+        <div class="card-body">
+          <h4 class="card-title">{{dat.nombre}}</h4>
+            <ngb-rating [rate]='dat.estrellas'></ngb-rating>
+          <p class="card-text">{{dat.estrellas}}</p>
+        </div>
+      </div>
+</div>
